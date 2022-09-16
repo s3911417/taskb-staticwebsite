@@ -1,0 +1,21 @@
+a:hover{
+    font-weight: 900;
+}
+/*Bold text for heading row */
+table tr:first-child{
+    font-weight: bold;
+}
+/*odd rows background color*/
+table tr:nth-child(2n+1){
+    background-color: #123456;
+}
+/*even rows background color*/
+table tr:nth-child(2n){
+    background-color: azure;
+}
+@media only screen and (min-width: 1000px){
+    footer{
+        width: 10%;
+    }
+}
+    
